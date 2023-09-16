@@ -15,4 +15,8 @@ footer {
 .hover-underline:hover {
     text-decoration: underline !important;
 }
+footer a {
+    font-weight: bold;
+    font-size: 20px;
+}
 /* fin partie Nicolas */
