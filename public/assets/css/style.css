@@ -1,9 +1,51 @@
+
+/* styles généraux */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
 /* partie Thibaud*/
 
 /* fin partie Thibaud*/
 
 /* partie Maxime*/
 
+section.form {
+    background: linear-gradient(180deg, #EFF6E0 0%, rgba(239, 246, 224, 0.00) 100%);
+}
+
+.btn-form {
+    background: #124559;
+    color: #FFFFFF;
+}
+
+.btn-form:hover{
+    background: #124559;
+    color: #FFFFFF;
+}
+
+.form-label {
+    font-weight:500
+}
+
+.form-check-label {
+    font-size: 14px;
+    color:#737373;
+    font-style: italic;
+
+}
 /* fin partie Maxime*/
 
 /* partie Nicolas */
