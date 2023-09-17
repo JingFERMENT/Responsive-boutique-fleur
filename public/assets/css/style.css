@@ -13,9 +13,15 @@ header{
     background-color: #aec3b0;
 }
 /*section banniere */
+.banniere--img--size__logo {
+    height: 200px;
+    width: 200px;
+    
+}
 .logohead{
     
     height: 200px;
+    width: 200px;
     border: 2px;
     /* margin-bottom: 50px; */
 }
