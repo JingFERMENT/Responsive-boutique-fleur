@@ -1,4 +1,5 @@
 /* partie Thibaud*/
+/* partie header */
 header{
     background-color: #aec3b080;
     padding: 20px 0px;
@@ -10,6 +11,34 @@ header{
 }
 .boutonmenu:hover{
     background-color: #aec3b0;
+}
+/*section banniere */
+.logohead{
+    
+    height: 200px;
+    border: 2px;
+    /* margin-bottom: 50px; */
+}
+.logohead img{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aec3b0;
+    margin-top: 10px;
+}
+.imghead{
+    display: flex;
+    justify-content: center;
+    border: 2px;
+}
+.imghead img{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #aec3b0;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.banniere{
+    background-color: #eff6e0;
 }
 /* fin partie Thibaud*/
 /* partie Maxime*/
