@@ -42,42 +42,45 @@
 
         </section>
         <!-- partie formulaire-->
-        <section class="container-fluid p-0" id="contact">
-            <div class="row bg-success-subtle">
-                <div class="col-12 col-md-6">
-                    <img class="img-fluid col-12" src="./public/assets/img/b9ece811bf121d4dd0018c054b7161da.jpg" alt="">
+        <section class="container-fluid form" id="contact">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-6 p-0">
+                    <img class="img-fluid col-12 mx-auto"
+                        src="./public/assets/img/b9ece811bf121d4dd0018c054b7161da.jpg" alt="image d'une plante">
                 </div>
-
-                <form class="col-12 col-md-6 p-5">
-                    <h1 class="text-center p-4">Formulaire de contact</h1>
-                    <p class="text-center">Une requête ? Une question ? Recontactez-nous !</p>
-                    <div class="m-3">
-                        <label for="exampleInputEmail1" class="form-label">Nom</label>
-                        <input type="text" class="form-control" id="exampleInputLastname" placeholder="Dupont">
-                    </div>
-                    <div class="m-3">
-                        <label for="exampleInputPassword1" class="form-label">Prénom</label>
-                        <input type="text" class="form-control" id="exampleInputFirstname" placeholder="Jean">
-                    </div>
-                    <div class="m-3">
-                        <label for="exampleInputPassword1" class="form-label">Adresse</label>
-                        <input type="email" class="form-control" id="exampleInputEmail"
-                            placeholder="jeandupont@gmail.com">
-                    </div>
-                    <div class="m-3">
-                        <label for="exampleInputPassword1" class="form-label">Téléphone</label>
-                        <input type="text" class="form-control" id="exampleInputTelephone" placeholder="ex: 06 22 22 22 22">
-                    </div>
-                    <div class="m-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Acceptation RDPD</label>
-                    </div>
-                    <div class="row m-5 justify-content-center">
-                        <button type="submit" class="col-6 btn btn-success">Envoyer</button>
-                    </div>
-
-                </form>
-
+                <div class="container col-12 col-md-6 p-5">
+                    <h2 class="text-center p-4">Formulaire de contact</h2>
+                    <p class="text-center pb-5">Une requête ? Une question ? Recontactez-nous !</p>
+                    <form>
+                        <div class="form-group mb-4">
+                            <label for="inputLastnameFirstname" class="form-label">Nom & Prénom :</label>
+                            <input type="text" class="form-control" id="InputLastnameFirstname"
+                                placeholder="Dupont Jean ">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="inputEmail" class="form-label">Email :</label>
+                            <input type="text" class="form-control" id="inputEmail" placeholder="jean.dupont@gmail.com">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="inputTelephoneNumber" class="form-label">Numéro de téléphone :</label>
+                            <input type="email" class="form-control" id="inputTelephoneNumber"
+                                placeholder="ex: 06 12 34 56 78">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="exampleInputPassword1" class="form-label">Message :</label>
+                            <textarea type="text" class="form-control" rows="8" id="exampleInputTelephone"
+                                placeholder="Laissez-nous un message ici..."></textarea>
+                        </div>
+                        <div class="mb-5 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">En soumettant ce formulaire, j'accepte
+                                que mes informations soient utilisées uniquement dans le cadre de ma demande.</label>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <button type="submit" class="col-12 col-md-6 btn btn-form">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
         <!-- partie localisation-->
