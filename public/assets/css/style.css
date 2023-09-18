@@ -7,6 +7,7 @@
 /* fin partie Maxime*/
 
 /* partie Nicolas */
+
 #localisation {
     background: linear-gradient(180deg, rgba(239, 246, 224, 0.00) 0%, #EFF6E0 100%);
 }
@@ -32,4 +33,5 @@
 .hover-underline:hover {
     text-decoration: underline !important;
 }
+
 /* fin partie Nicolas */
