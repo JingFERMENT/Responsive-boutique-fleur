@@ -124,18 +124,43 @@
         <!-- partie localisation-->
         <section class=localisation id="localisation">
 
-
         </section>
 
     </main>
     <!-- fin partie main-->
 
     <!--partie footer-->
-    <footer>
+
+    <footer class="container-fluid">
+        <!-- d-flex annonce la tranformation des enfants en flexbox pour le centrage -->
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
+                <img class="img-fluid" src="./public/assets/img/LaManu_Plants_(2).jpg" alt="Logo manu plantes">
+            </div>
+            <div class="col-12 col-md-4 col-xl-6 text-center">
+                <!-- Menu (hover-underline voir style.css) - id #flink* si besoin -->
+                <!-- d-block transforme la balise <a> en mode block pour occuper tout l'espace -->
+                <!-- mb-2 pour l'espacement entre les liens (sorte de marge) -->
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink2" href="#" alt="Présentation">Présentation</a>
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink3" href="#" alt="Photos">Photos</a>
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink4" href="#" alt="Contact">Contact</a>
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink1" href="#" alt="Accueil">Localistation</a>
+            </div>
+            <!-- Adresse p-5(padding) -->
+            <div class="col-12 col-md-4 col-xl-3 text-light text-center p-5">
+                <strong>La Manu plants</strong><br>70 rue des jacobins<br>80000 Amiens<br><a class="text-decoration-none hover-underline text-white" href="tel:03 22 92 30 30">03 22 92 30 30</a>
+            </div>
+        </div>
+        <!-- Mentions (hover-underline voir style.css) - id #flink* si besoin -->
+        <div class="row">
+            <div class="col-12 text-center text-light">
+                <a href="http://www.url.com" class="text-decoration-none hover-underline text-white" id="flink5">Mentions légales</a> @ LaManu Plants - 2023
+            </div>
+        </div>
     </footer>
+
     <!-- fin partie footer-->
 
     <script src="./public/assets/framework/bootstrap.min.js"></script>
 </body>
-
 </html>

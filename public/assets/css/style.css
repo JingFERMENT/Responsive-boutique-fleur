@@ -149,4 +149,16 @@ section.form {
 
 /* partie Nicolas */
 
+footer {
+    background-color: #124559;
+}
+    /* Combinaison des classes (avec text-decoration-none) pour créer des liens qui sont soulignés au survol. Eventuellement pour une class globale */
+    /* ATTENTION: j'ai placé !important dans mon style (risque d'ecrasement d'autres styles) */
+.hover-underline:hover {
+    text-decoration: underline !important;
+}
+footer a {
+    font-weight: bold;
+    font-size: 20px;
+}
 /* fin partie Nicolas */
