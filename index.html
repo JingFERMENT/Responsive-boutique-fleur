@@ -33,20 +33,113 @@
 
         <!-- partie presentation-->
         <section class="presentation" id="presentation">
+            <div class="container">
+                <!-- Texte presentation -->
+                <div class="zone-txt">
+                    <h2>Présentation</h2>
+                    <p>Notre première boutique voit le jour en 1993 au cœur d’Amiens, rue des jacobins. La qualité des plantes et la beauté des compositions sont très appréciées de nos clients, ce qui incite les frères fondateurs de La Manu Plants, Teddy, François et Arnaud, à ouvrir d’autres boutiques.
+                        En quelques années, les boutiques se multiplient et La Manu Plants devient plantes tropicales de référence en France.
+                        <br><br>
+                        L’offre est dès le début très généreuse : vous trouverez des espèces du monde entier, des espèces végétales particulières que nous-même aimons cultiver pour répondre aux envies de tous nos chers clients.</p>
+                    
+                </div>
+                <!-- Image presentation-->
+                <div class="zone-img d-md-block d-none">
+                    <img src="./public/assets/img/chris-lee-yb3hsmz4utg-unsplash.jpg" alt="photo de plante">
+                </div>
+                <!-- Green rectangle -->
+                <div class="green-rectangle"></div>
+            </div>
         </section>
 
 
         <!-- partie photos-->
-        <section class="photos" id="photos">
-
-
+        <section class="photos d-none d-md-block" id="photos">
+            <div class="container">
+                <div class="grid">
+                    <div class="div1"></div>
+                    <div class="div2">
+                        <img src="./public/assets/img/LaManu_Plants_(1).jpg" alt="Logo LaManu plants">
+                    </div>
+                    <div class="div3"></div>
+                    <div class="div4">
+                        <img src="./public/assets/img/LaManu_Plants.png" alt="Logo LaManu plants">
+                    </div>
+                    <div class="div5"></div>
+                    <div class="div6"></div>
+                    </div>
+            </div>
+        </section>
+        <section class="photos_phone d-md-none">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="plant_desk col-12"><img class="img-fluid" src="./public/assets/img/annie-spratt-S7viz8JWxwY-unsplash.jpg" alt="plant1"></div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="logo_green col-6"><img class="img-fluid col-12" src="./public/assets/img/Capture.jpg" alt="Logo LaManu plants"></div>
+                        <div class="unique_pots col-6"><img class="img-fluid col-12" src="./public/assets/img/fleur.jpg" alt="photos_fleur"></div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="div2 col-12 ">
+                            <img class="img-fluid col-12" src="./public/assets/img/logo_green.jpg" alt="Logo LaManu plants">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="bois col-6"><img class="img-fluid col-12" src="./public/assets/img/f85eff3ff529c8bac7c648ee4f74a397.jpg" alt="bois"></div>
+                        <div class="tige col-6"><img class="img-fluid w-100 h-100 object-fit-cover" src="./public/assets/img/tige.jpg" alt="tige"></div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- partie formulaire-->
-        <section class="formulaire" id="contact">
-
-
+        <section class="container-fluid form" id="contact">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-6 p-0">
+                    <img class="img-fluid col-12 mx-auto"
+                        src="./public/assets/img/b9ece811bf121d4dd0018c054b7161da.jpg" alt="image d'une plante">
+                </div>
+                <div class="container col-12 col-md-6 p-5">
+                    <h2 class="text-center p-4">Formulaire de contact</h2>
+                    <p class="text-center pb-5">Une requête ? Une question ? Recontactez-nous !</p>
+                    <form>
+                        <div class="form-group mb-4">
+                            <label for="inputLastnameFirstname" class="form-label">Nom & Prénom :</label>
+                            <input type="text" class="form-control" id="InputLastnameFirstname"
+                                placeholder="Dupont Jean ">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="inputEmail" class="form-label">Email :</label>
+                            <input type="text" class="form-control" id="inputEmail" placeholder="jean.dupont@gmail.com">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="inputTelephoneNumber" class="form-label">Numéro de téléphone :</label>
+                            <input type="email" class="form-control" id="inputTelephoneNumber"
+                                placeholder="ex: 06 12 34 56 78">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="exampleInputPassword1" class="form-label">Message :</label>
+                            <textarea type="text" class="form-control" rows="8" id="exampleInputTelephone"
+                                placeholder="Laissez-nous un message ici..."></textarea>
+                        </div>
+                        <div class="mb-5 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">En soumettant ce formulaire, j'accepte
+                                que mes informations soient utilisées uniquement dans le cadre de ma demande.</label>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <button type="submit" class="col-12 col-md-6 btn btn-form">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
         <!-- partie localisation-->
+
     
     <section class="localisation" id="localisation">
         <div class="container-fluid">
@@ -80,15 +173,46 @@
         </div>
     </section>
 
+        <section class=localisation id="localisation">
+
+        </section>
+
+
     </main>
     <!-- fin partie main-->
 
     <!--partie footer-->
-    <footer>
+
+    <footer class="container-fluid">
+        <!-- d-flex annonce la tranformation des enfants en flexbox pour le centrage -->
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
+                <img class="img-fluid" src="./public/assets/img/LaManu_Plants_(2).jpg" alt="Logo manu plantes">
+            </div>
+            <div class="col-12 col-md-4 col-xl-6 text-center">
+                <!-- Menu (hover-underline voir style.css) - id #flink* si besoin -->
+                <!-- d-block transforme la balise <a> en mode block pour occuper tout l'espace -->
+                <!-- mb-2 pour l'espacement entre les liens (sorte de marge) -->
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink2" href="#" alt="Présentation">Présentation</a>
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink3" href="#" alt="Photos">Photos</a>
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink4" href="#" alt="Contact">Contact</a>
+                <a class="d-block mb-2 text-decoration-none hover-underline text-white" id="flink1" href="#" alt="Accueil">Localistation</a>
+            </div>
+            <!-- Adresse p-5(padding) -->
+            <div class="col-12 col-md-4 col-xl-3 text-light text-center p-5">
+                <strong>La Manu plants</strong><br>70 rue des jacobins<br>80000 Amiens<br><a class="text-decoration-none hover-underline text-white" href="tel:03 22 92 30 30">03 22 92 30 30</a>
+            </div>
+        </div>
+        <!-- Mentions (hover-underline voir style.css) - id #flink* si besoin -->
+        <div class="row">
+            <div class="col-12 text-center text-light">
+                <a href="http://www.url.com" class="text-decoration-none hover-underline text-white" id="flink5">Mentions légales</a> @ LaManu Plants - 2023
+            </div>
+        </div>
     </footer>
+
     <!-- fin partie footer-->
 
     <script src="./public/assets/framework/bootstrap.min.js"></script>
 </body>
-
 </html>
