@@ -1,3 +1,4 @@
+
 /* styles généraux */
 *{
     margin: 0;
@@ -44,6 +45,34 @@ button{
 
 /* fin des styles generaux */
 
+/*section banniere */
+
+.logohead{
+
+    border: 2px;
+}
+.logohead img{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aec3b0;
+    margin-top: 10px;
+}
+.imghead{
+    border: 2px;
+}
+
+
+.imghead img{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #aec3b0;
+    margin-top: 10px;
+    /* max-width: 100%; */
+}
+.banniere{
+    background-color: #eff6e0;
+}
+/* fin partie Thibaud*/
 
 section.presentation{
     background-color: #EFF6E0;
@@ -215,10 +244,6 @@ section.form {
     font-style: italic;
 
 }
-/* fin partie Maxime*/
-
-/* partie Nicolas */
-
 
 #localisation {
     background: linear-gradient(180deg, rgba(239, 246, 224, 0.00) 0%, #EFF6E0 100%);
@@ -239,7 +264,7 @@ section.form {
 #local-adress {
     font-weight: bold;
     font-size: 15px;
-=======
+
 footer {
     background-color: #124559;
 
@@ -250,12 +275,10 @@ footer {
     text-decoration: underline !important;
 }
 
-
-/* fin partie Nicolas */
-
 footer a {
     font-weight: bold;
     font-size: 20px;
 }
-/* fin partie Nicolas */
+
+
 
