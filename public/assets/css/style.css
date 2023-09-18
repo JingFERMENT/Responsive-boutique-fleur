@@ -1,10 +1,37 @@
 /* partie Thibaud*/
 
 /* fin partie Thibaud*/
+
 /* partie Maxime*/
 
 /* fin partie Maxime*/
 
 /* partie Nicolas */
+
+#localisation {
+    background: linear-gradient(180deg, rgba(239, 246, 224, 0.00) 0%, #EFF6E0 100%);
+}
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+#local-adress {
+    font-weight: bold;
+    font-size: 15px;
+}
+    /* Combinaison des classes (avec text-decoration-none) pour créer des liens qui sont soulignés au survol. Eventuellement pour une class globale */
+    /* ATTENTION: j'ai placé !important dans mon style (risque d'ecrasement d'autres styles) */
+.hover-underline:hover {
+    text-decoration: underline !important;
+}
 
 /* fin partie Nicolas */
