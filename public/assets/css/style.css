@@ -15,6 +15,7 @@ section{
     width: 80%;
     max-width: 1240px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 h2{
@@ -108,10 +109,44 @@ section.photos .div6{
 }
 
 
-
 section.photos_phone .container-fluid div{
     padding: 0px;
 
 }
-
 /* fin style main */
+
+/* partie Thibaud*/
+
+/* fin partie Thibaud*/
+
+/* partie Maxime*/
+
+section.form {
+    background: linear-gradient(180deg, #EFF6E0 0%, rgba(239, 246, 224, 0.00) 100%);
+}
+
+.btn-form {
+    background: #124559;
+    color: #FFFFFF;
+}
+
+.btn-form:hover{
+    background: #124559;
+    color: #FFFFFF;
+}
+
+.form-label {
+    font-weight:500
+}
+
+.form-check-label {
+    font-size: 14px;
+    color:#737373;
+    font-style: italic;
+
+}
+/* fin partie Maxime*/
+
+/* partie Nicolas */
+
+/* fin partie Nicolas */
