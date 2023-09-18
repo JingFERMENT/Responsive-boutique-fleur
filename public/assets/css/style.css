@@ -11,12 +11,12 @@ section{
     padding: 15vh 0px;
 }
 
-.container{
+/*.container{
     width: 80%;
     max-width: 1240px;
     margin: 0 auto;
     scroll-behavior: smooth;
-}
+}*/
 
 h2{
     font-family: 'DM Serif Display', serif;
